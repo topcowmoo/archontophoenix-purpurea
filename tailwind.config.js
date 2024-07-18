@@ -6,12 +6,18 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        antonio: ["Antonio", "sans-serif"], // Add Antonio font
-        spartan: ["Spartan", "sans-serif"], // Add Spartan font
+        antonio: ["Antonio", "sans-serif"],
+        spartan: ["Spartan", "sans-serif"], 
       },
       colors: {
-        mygray: "#454545", // Define custom colors, 'mygray' with hex value '#454545'
-        accent: "#bf3eff", // Define an accent color with hex value '#bf3eff'
+        mercury: "#419EBB", 
+        venus: "#EDA249",
+        earth: "#6C2DD4",
+        mars: "#D14C32",
+        jupiter: "#D83A34",
+        saturn: "#CD5120",
+        uranus: "#1DC1A1",
+        neptune: "#2D68F0",
       },
     },
   },
