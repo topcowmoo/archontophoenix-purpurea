@@ -1,7 +1,7 @@
 
 function Navbar() {
   return (
-    <nav className="text-accent">
+    <nav className="text-accent py-6 pr-6">
       <ul className="flex justify-end space-x-4 text-14px font-bold leading-25px uppercase tracking-wide font-antonio">
         <li>
           <a href="/mercury" className="hover:text-white hover:font-bold">Mercury</a>
