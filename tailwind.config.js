@@ -18,6 +18,7 @@ export default {
         saturn: "#CD5120",
         uranus: "#1DC1A1",
         neptune: "#2D68F0",
+        accent: "#B9B9C1",
       },
     },
   },

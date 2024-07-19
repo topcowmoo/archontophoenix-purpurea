@@ -2,3 +2,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background-image: url('/src/assets/background-stars.svg'); /* Adjust path as necessary */
+  background-size: cover;
+  background-position: center;
+  background-color: #070724; /* Ensure a fallback background color */
+  min-height: 100vh;
+  margin: 0;
+  position: relative; /* Ensure body is positioned for z-index to work */
+  z-index: -2; /* Ensure it is behind everything else */
+}

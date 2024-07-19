@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Error from './pages/Error';
 import PlanetPage from './pages/PlanetPage';
 
+
 const router = createBrowserRouter([
   {
     path: "/",

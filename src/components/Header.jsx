@@ -7,7 +7,7 @@ function Header() {
           {/* Logo */}
           <div className="flex items-center">
             {/* Logo text */}
-            <h1 className="text-3xl text-black ml-4 font-antonio">The Planets</h1>
+            <h1 className="text-white text-[28px] font-normal font-antonio">The Planets</h1>
           </div>
           <Navbar />
         </header>
