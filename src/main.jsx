@@ -16,7 +16,7 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/PlanetPage",
+        path: "planet/:planetName",
         element: <PlanetPage />,
       },
     ],

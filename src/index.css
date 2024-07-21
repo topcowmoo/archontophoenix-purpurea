@@ -4,6 +4,7 @@
 @tailwind utilities;
 
 body {
+  @apply font-antonio;;
   background-image: url('/src/assets/background-stars.svg');
   background-size: cover;
   background-position: center;

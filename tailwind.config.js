@@ -7,10 +7,9 @@ export default {
     extend: {
       fontFamily: {
         antonio: ["Antonio", "sans-serif"],
-        spartan: ["Spartan", "sans-serif"], 
       },
       colors: {
-        mercury: "#419EBB", 
+        mercury: "#419EBB",
         venus: "#EDA249",
         earth: "#6C2DD4",
         mars: "#D14C32",

@@ -1,31 +1,32 @@
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
     <nav className="text-accent py-6 pr-6">
-      <ul className="flex justify-end space-x-4 text-14px font-bold leading-25px uppercase tracking-wide font-antonio">
+      <ul className="flex justify-end space-x-4 text-14px font-bold leading-25px uppercase tracking-wide">
         <li>
-          <a href="/mercury" className="hover:text-white hover:font-bold">Mercury</a>
+          <Link to="/planet/mercury" className="hover:text-white hover:font-bold">Mercury</Link>
         </li>
         <li>
-          <a href="/venus" className="hover:text-white hover:font-bold">Venus</a>
+          <Link to="/planet/venus" className="hover:text-white hover:font-bold">Venus</Link>
         </li>
         <li>
-          <a href="/earth" className="hover:text-white hover:font-bold">Earth</a>
+          <Link to="/planet/earth" className="hover:text-white hover:font-bold">Earth</Link>
         </li>
         <li>
-          <a href="/mars" className="hover:text-white hover:font-bold">Mars</a>
+          <Link to="/planet/mars" className="hover:text-white hover:font-bold">Mars</Link>
         </li>
         <li>
-          <a href="/jupiter" className="hover:text-white hover:font-bold">Jupiter</a>
+          <Link to="/planet/jupiter" className="hover:text-white hover:font-bold">Jupiter</Link>
         </li>
         <li>
-          <a href="/saturn" className="hover:text-white hover:font-bold">Saturn</a>
+          <Link to="/planet/saturn" className="hover:text-white hover:font-bold">Saturn</Link>
         </li>
         <li>
-          <a href="/uranus" className="hover:text-white hover:font-bold">Uranus</a>
+          <Link to="/planet/uranus" className="hover:text-white hover:font-bold">Uranus</Link>
         </li>
         <li>
-          <a href="/neptune" className="hover:text-white hover:font-bold">Neptune</a>
+          <Link to="/planet/neptune" className="hover:text-white hover:font-bold">Neptune</Link>
         </li>
       </ul>
     </nav>
